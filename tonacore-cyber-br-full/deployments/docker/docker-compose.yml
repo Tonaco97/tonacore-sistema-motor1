@@ -1,0 +1,15 @@
+
+version: '3'
+services:
+  redis:
+    image: redis:7
+    ports: ["6379:6379"]
+  kafka:
+    image: bitnami/kafka:latest
+    environment:
+      - KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper:2181
+      - ALLOW_PLAINTEXT_LISTENER=yes
+    ports: ["9092:9092"]
+  zookeeper:
+    image: bitnami/zookeeper:latest
+    ports: ["2181:2181"]
