@@ -3,6 +3,7 @@
 TonaCore Cyber BR é uma plataforma unificada de correlação, fusão de inteligência
 e resposta automatizada a incidentes de segurança, projetada para ambientes
 enterprise e críticos.
+<img width="484" height="418" alt="Tonacore data flow eng" src="https://github.com/user-attachments/assets/6f7a52b0-1904-4363-94df-e9c126527e71" />
 
 ## Principais Capacidades
 - Correlação em tempo real de múltiplas fontes
